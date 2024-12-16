@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-['Poppins'] bg-black;
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-3 rounded-full font-semibold;
+  }
+
+  .primary {
+    @apply text-black bg-primary;
+  }
+
+  .secondary {
+    @apply text-white bg-[#323437];
+  }
+}
